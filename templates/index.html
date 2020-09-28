@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .frm{
+            background-color: blanchedalmond;
+            text-align: center;
+            padding: 20px;
+            margin: 5px;
+        }
+    </style>
+    <title>Image Scrapper</title>
+</head>
+<body>
+    <form action= "/scrapper" class = "frm" method = 'POST'>
+        <h3>Enter the string of the images you need:</h3>
+        <input type="text" name = "image_name" required><br>
+        <h3>Enter the number of the images you need:</h3>
+        <input type= "number" min = 1 name = "number" required><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
